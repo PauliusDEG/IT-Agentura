@@ -1,0 +1,194 @@
+#btn-one {
+  margin-right: 20px;
+  font-size: 20px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+}
+
+#btn-one:hover {
+  color:#FF6600 ;
+}
+
+.navbar-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0C1A3A;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+.footer{
+  display: flex;
+  padding-bottom: 50px;
+  flex-direction: column;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+
+.section-one {
+  display: flex;
+  padding-top: 100px;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+#foot-logo{
+  margin-bottom: 25px;
+}
+
+.logas {
+  width: 327px;
+  height: 145px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.puslapiai {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.puslapiai h2{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+}
+
+.puslapiai p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.straipsniai {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.straipsniai h2{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+}
+
+.straipsniai p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.prenumeruok{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 433px;
+  height: 67px;
+  border-radius: 40px;
+}
+
+input::placeholder{
+  padding-left: 30px;
+  color: #0C1A3AE5;
+}
+.prenumeruok h2{
+font-size: 20px;
+font-family: "Roboto Serif", serif; ;
+font-weight: 600;
+}
+
+#btn-pre {
+  background-color: #0C1A3A;
+  color: white;
+  width:151px ;
+  height: 47px;
+  padding: 8px, 16px, 8px, 16px ;
+  border-radius: 23px;
+  border: none;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 270px;
+
+}
+
+
+.section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+#linija {
+  margin: auto;
+  width: 1450px;
+}
+
+#autoriaus {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+#autoriaus h2{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+  margin-bottom: 5px;
+}
+
+#autoriaus p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#susisieki {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+#susisieki h2{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+  margin-bottom: 5px;
+}
+
+#susisieki p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#adresas {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+#adresas h2{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Roboto Serif", serif;
+  margin-bottom: 5px;
+}
+
+#adresas p {
+  font-size: 15px;
+  font-weight: 300;
+}

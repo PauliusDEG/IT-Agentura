@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.mainPic{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fourBoxes {
+    height: 150px;
+    width: 1119px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 580px;
+}
+.boxis {
+    height: 97px;
+    width: 235px;
+    border-radius: 15px;
+    padding: 20px, 30px, 20px, 30px;
+    background-color: #0C1A3A;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.boxis h3 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.boxis h4 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.subHeaderSix{
+    margin: auto;
+    width: 1400px;
+    height: 800px;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 600px;
+}
+
+.para{
+    margin-bottom: 20px;
+}
+
+.para h4 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.para p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.pikai{ 
+    display: flex;    
+    gap:50px;
+}
+
+.naujausiPro h2 {
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.pictures-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+#pavas {
+    width: 430px;
+
+}
+
+.pic-box-two h4 {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.pic-box-two p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}

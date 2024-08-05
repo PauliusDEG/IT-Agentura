@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.navbar-ApieMus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+}
+
+#logoBlue {
+    background-image: url(..//assets/LogoBlue.png);
+    width: 150px;
+    height: 50px;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 208px;
+}
+
+.navbar-ApieMus nav ul li a {
+    color: black;
+  }
+
+.navbar-ApieMus #btn-one {
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    background-color:#0C1A3A;
+    color: white;
+    border: none;
+  }  
+
+#btn-one:hover {
+    color:#FF6600 ;
+  }
+
+.header-three {
+    background-image: url(..//assets/AboutUsFonas.svg);
+    width: 1400px;
+    height: 706px;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 200px;
+}  
+
+.textBox {
+    font-family: "Roboto Serif", serif;
+    margin-left: 30px;
+    gap: 50px;
+    color: white;
+    height: 436px;
+    width: 700px;
+}
+
+.textBox h2 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    margin-bottom: 20px;
+}
+
+.textBox p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "DM Sans", sans-serif;
+}
+
+#pic {
+position: absolute;
+margin-top: -450px;
+margin-left:550px;
+   
+}
+
+.textBox #orange-two {
+    color: #FF6600;
+}
+
+.ivertinimas {
+    margin-left: 100px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+picture {
+    background-image: url(..//assets/Selfie.svg);
+    position: absolute;
+    margin-top: 85px;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.subHeader{
+    height: 273px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+}
+
+.info{
+    text-align: center;
+    height: 183px;
+    width: 383px;
+    font-family: "Roboto Serif", serif;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.info h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.info h4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.info p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subHeaderThree{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.subHeaderFour {
+    padding-top: 100px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.cardBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+    gap: 50px;
+}
+
+.cards {
+    width: 100%;
+    height: 100%;
+}
+
+.subHeaderFour h2 {
+    font-family: "Roboto Serif", serif;
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+
+.subHeaderFive {
+    text-align: center;
+    margin-bottom: 100px;
+}

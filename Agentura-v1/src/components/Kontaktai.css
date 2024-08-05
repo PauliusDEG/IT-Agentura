@@ -1,0 +1,40 @@
+.navbar-Kontaktai {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .navbar-Kontaktai nav ul li a {
+    color: black;
+  }
+  .navbar-Kontaktai #btn-one {
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: "DM Sans", sans-serif;
+    cursor: pointer;
+    background-color:#0C1A3A;
+    color: white;
+    border: none;
+  }  
+
+#btn-one:hover {
+    color:#FF6600 ;
+  }
+
+.pasikalbekime {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px ;
+  height: 530px;
+  
+}  
+
+.sub {
+  text-align: center;
+  margin-bottom: 100px;
+}
